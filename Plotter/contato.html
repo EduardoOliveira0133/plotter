@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Plotter - Contato</title>
+        <link rel="icon" href="galeria/icon.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="galeria/header.webp" width="120px">
+            <nav id="nav">
+                <ul>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a href="modelos.html">Modelos</a></li>
+                    <li class="nav-item"><a href="contato.html" id="ativa">contato</a></li>
+                </ul>
+            </nav>
+            <div class="mobile">
+                <button onclick="menuShow()"><img class="icone" src="galeria/menu.svg" alt="" width="38px"></button>
+            </div>
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-item"><a class="mlink" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="mlink" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="mlink" href="modelos.html">Modelos</a></li>
+                    <li class="nav-item"><a class="mlink" href="contato.html" id="ativa">contato</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="contato">
+            <form action="#" method="post">
+                <center>
+                <div class="tablecontato">
+                    <table border="0">
+                        <tr><div class="txtfacn"><h1>Fale conosco!</h1></div></tr>
+                        <tr>Nome:<input type="text" required="required" size="40" placeholder="Escreva seu nome"></tr>
+                        <tr>Telefone:<input type="text" required size="40" placeholder="Digite o seu telefone"></tr>
+                        <tr>Email:<input type="email" required size="40" placeholder="Digite o seu email"></tr>
+                        <tr>Estado:<br><select required>
+                            <option></option>
+                            <option>Acre</option>
+                            <option>Alagoas</option>
+                            <option>Amapá</option>
+                            <option>Amazonas</option>
+                            <option>Bahia</option>
+                            <option>Ceará</option>
+                            <option>Distrito Federal</option>
+                            <option>Espírito Santo</option>
+                            <option>Goiás</option>
+                            <option>Maranhão</option>
+                            <option>Mato Grosso</option>
+                            <option>Mato Grosso do Sul</option>
+                            <option>Minas Gerais</option>
+                            <option>Pará</option>
+                            <option>Paraíba</option>
+                            <option>Paraná</option>
+                            <option>Pernambuco</option>
+                            <option>Piauí</option>
+                            <option>Rio de Janeiro</option>
+                            <option>Rio Grande do Norte</option>
+                            <option>Rio Grande do Sul</option>
+                            <option>Rondônia</option>
+                            <option>Roraima</option>
+                            <option>Santa Catarina</option>
+                            <option>São Paulo</option>
+                            <option>Sergipe</option>
+                            <option>Tocantins</option>
+                        </select></tr>
+                        <tr><textarea id="textarea" cols="38" rows="8" placeholder="Deixe aqui seu comentário"></textarea></tr>
+                    </table>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                </div>
+            </center>
+            </form>
+        </div>
+        <script src="script.js"></script>
+        <footer>
+            <h5>Trabalho Acadêmico - Sem Fins Lucrativos<br>Eduardo Oliveira - &copyTodos os direitos reservados 2023</h5>
+        </footer>
+    </body>
+    </html>
